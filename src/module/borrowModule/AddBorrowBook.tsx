@@ -35,6 +35,8 @@ const AddBorrowBook = () => {
         }
 
         const res = await borrowBook(borrowData).unwrap();
+        console.log(res);
+        
         if (borrowData) {
             Swal.fire({
                 title: "Good job!",

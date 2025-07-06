@@ -56,8 +56,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile menu */}
-          <div className="md:hidden">
+           <div className="md:hidden">
             <div className="flex items-center space-x-2">
               <Link
                 to="/books"

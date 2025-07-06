@@ -13,6 +13,8 @@ const AddBooks = () => {
     const form = useForm()
 
     const [createBook, { data, isLoading, isError }] = useCreateBookMutation()
+    console.log({ data, isLoading, isError });
+    
      const navigate = useNavigate();
 
 
